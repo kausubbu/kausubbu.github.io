@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Course Information for CS4641">
+    <meta name="author" content="Kaushik Subramanian">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>CS 4641</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<style>
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+    </style>
+	
+	<!-- Mathjax styles -->
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+      tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]}
+      });
+    </script>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-74348278-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+  </head>
+  
+  <body>
+
+	<!-- Navigation bar -->	
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">CS 4641</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">            
+			<li><a href="index.html">Home</a></li>
+            <li><a href="schedule.html">Schedule</a></li>
+            <li class="active"><a href="reading.html">Reading</a></li>
+			<li><a href="resources.html">Resources</a></li>
+			<li><a href="projects.html">Projects</a></li>
+			<li><a href="https://piazza.com/gatech/summer2015/cs4641/home">Piazza</a></li>			
+          </ul>		  
+		  <ul class="nav navbar-nav navbar-right">			
+			<li><a href="http://www.cc.gatech.edu/~ksubrama/">Kaushik Subramanian</a></li>			
+		  </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <!-- Main content -->
+    <div class="container-fluid">
+	
+		<h4><strong>Course Material</strong></h4>
+		<p>Required Text:</p>
+		<ul>
+			<li><a href="http://www.cs.cmu.edu/afs/cs.cmu.edu/user/mitchell/ftp/mlbook.html">Machine Learning</a> by Tom Mitchell, McGraw Hill, 1997</li>
+			<li><a href="https://mitpress.mit.edu/books/introduction-machine-learning">Introduction to Machine Learning</a> by Ethem Alpaydin, MIT Press, Second Edition, 2009</li>
+		</ul>
+		
+		<p>Optional Text:</p>
+		<ul>
+			<li><a href="http://www.stat.cmu.edu/~larry/all-of-statistics/">All of Statistics </a> by Larry Wasserman, Springer, 2010</li>
+			<li><a href="http://webdocs.cs.ualberta.ca/~sutton/book/the-book.html">Reinforcement Learning: An Introduction </a> by Richard Sutton and Andrew Barto, MIT Press, 1998</li>
+			<li><a href="http://www-stat.stanford.edu/~tibs/ElemStatLearn/">The Elements of Statistical Learning </a> by Trevor Hastie, Robert Tibshirani and Jerome Friedman, Springer, 2009</li>
+		</ul>		
+		
+		<br>
+		
+		<h4><strong>Supplemental Material</strong></h4>
+		<ul>		
+			<li><a href="https://www.udacity.com/course/machine-learning-supervised-learning--ud675">Udacity's Online Machine Learning Course</a> by Prof. Charles Isbell and Prof. Michael Littman</li> 
+			<li><a href="http://www.autonlab.org/tutorials/index.html">Andrew Moore's Tutorial Slides on Machine Learning</a></li>
+			<li><a href="files/ML_Algorithm_Cheat_Sheet.png">Machine Learning Algorithm Cheat Sheet</a></li>
+			<li>Neural Networks</li>
+			<ul>
+				<li><a href="files/Neural_Network_Design_Guidelines.pdf">Neural Network Design Guidelines</a></li>
+			</ul>
+			<li>Support Vector Machines</li>
+			<ul>
+				<li><a href="files/SVM_Tutorial.pdf">SVM Tutorial</a></li>
+			</ul>
+			<li>Information Theory</li>
+			<ul>
+				<li><a href="files/Information_Theory.pdf">Charles Isbell's Notes on Information Theory</a></li>
+			</ul>
+			<li>Dimensionality Reduction</li>
+			<ul>
+				<li><a href="files/ICA.pdf">Independent Component Analysis</a></li>
+			</ul>
+			<li>Clustering</li>
+			<ul>
+				<li><a href="files/EM.pdf">Expectation Maximization Algorithm</a></li>
+				<li><a href="files/Clustering_Impossibility.pdf">Impossibility Theorem for Clustering</a></li>
+			</ul>
+			<li>Reinforcement Learning</li>
+			<ul>
+			<li><a href="files/RL_Survey.pdf">Reinforcement Learning: A Survey</a></li>
+			<li><a href="files/QLearning.pdf">Q-Learning</a></li>			
+			</ul>
+		</ul>
+		
+    </div> <!-- /container -->
+
+	 <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
