@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-  
   <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,25 +10,21 @@
     <meta name="description" content="Course Information for CS4641">
     <meta name="author" content="Kaushik Subramanian">
     <link rel="icon" href="../../favicon.ico">
-
     <title>CS 4641</title>
-
     <!-- Bootstrap core CSS -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	<style>
+    <style>
       body {
         padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
       }
     </style>
-	
-	<!-- Mathjax styles -->
+    <!-- Mathjax styles -->
     <script type="text/x-mathjax-config">
       MathJax.Hub.Config({
       tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]}
       });
     </script>
     <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -38,74 +35,92 @@
   ga('send', 'pageview');
 
 </script>
-
   </head>
-  
   <body>
-
-	<!-- Navigation bar -->	
-	<nav class="navbar navbar-inverse navbar-fixed-top">
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html">CS 4641</a>
-        </div>
+        <div class="navbar-header"> <button type="button"
+            class="navbar-toggle collapsed" data-toggle="collapse"
+            data-target="#navbar" aria-expanded="false"
+            aria-controls="navbar"> <span class="sr-only">Toggle
+              navigation</span> <span class="icon-bar"></span> <span
+              class="icon-bar"></span> <span class="icon-bar"></span> </button>
+          <a class="navbar-brand" href="index.html">CS 4641</a> </div>
         <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">            
-			<li><a href="index.html">Home</a></li>
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
             <li><a href="schedule.html">Schedule</a></li>
             <li><a href="reading.html">Reading</a></li>
-			<li class="active"><a href="resources.html">Resources</a></li>
-			<li><a href="projects.html">Projects</a></li>
-			<li><a href="https://piazza.com/gatech/summer2015/cs4641/home">Piazza</a></li>			
-          </ul>		  
-		  <ul class="nav navbar-nav navbar-right">			
-			<li><a href="http://www.cc.gatech.edu/~ksubrama/">Kaushik Subramanian</a></li>			
-		  </ul>
-        </div><!--/.nav-collapse -->
-      </div>
+            <li class="active"><a href="resources.html">Resources</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a
+                href="https://piazza.com/gatech/summer2015/cs4641/home">Piazza</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://kausubbu.github.io/"
+                moz-do-not-send="true">Kaushik Subramanian</a></li>
+          </ul>
+        </div>
+        <!--/.nav-collapse --> </div>
     </nav>
-
     <!-- Main content -->
     <div class="container-fluid">
-	
-		<h4><strong>Software</strong></h4>
-		<ul>
-			<li><a href="http://www.cs.waikato.ac.nz/ml/weka/">WEKA</a>  Machine learning software in JAVA that you can use for your projects</li>
-			<li><a href="http://webscope.sandbox.yahoo.com/catalog.php">Yahoo Labs datasets</a> Contains datasets for a variety of interesting applications</li>
-			<li><a href="https://weka.waikato.ac.nz/">Data Mining with Weka</a>  A MOOC Course</li>
-			<li><a href="https://github.com/pushkar/ABAGAIL">ABAGAIL</a>  Machine learning software in JAVA.</li>
-			<li><a href="http://scikit-learn.org/stable/">scikit-learn</a>  A popular python library for supervised and unsupervised learning algorithms</li>
-			<li><a href="http://pybrain.org/">pybrain</a>  A popular python library for artifical neural networks</li>
-			<li><a href="http://www.mathworks.com/products/neural-network/examples.html">MATLAB NN Toolbox</a>  The toolbox supports supervised learning with feedforward, radial basis, and dynamic networks and unsupervised learning with self-organizing maps and competitive layers.</li>
-			<li><a href="http://www.cs.ubc.ca/~murphyk/Software/MDP/mdp.html">Murphy's MDP Toolbox for Matlab</a></li>
-			<li><a href="http://www.cc.gatech.edu/~dellaert/FrankDellaert/Software.html">MATLAB Clustering Package</a>  By <a href="http://www.cc.gatech.edu/~dellaert/FrankDellaert/Frank_Dellaert/Frank_Dellaert.html">Frank Dellaert</a></li>
-			<li><a href="https://www.kaggle.com/">Kaggle</a> Data Science Competition</li>
-		</ul>
-		
-		<br>
-		
-		<h4><strong>Datasets</strong></h4>
-		<ul>
-			<li><a href="http://archive.ics.uci.edu/ml/">UCI Machine Learning Repository</a>  An online repository of data sets that can be used for machine learning experiments.</li>
-			<li><a href="http://deeplearning.net/datasets/">Deep Learning</a> Datasets useful for benchmarking deep learning algorithms.</li>
-			<li><a href="http://snap.stanford.edu/data/">Stanford Large Network Dataset</a>  Dataset of large social and information networks.</li>
-			<li><a href="http://www.cvlibs.net/datasets/kitti/index.php">Vision Benchmark Suite</a>  Autonomous car dataset</li>
-			<li><a href="http://kevinchai.net/datasets">Other datasets</a></li>
-		</ul>
-
-    </div> <!-- /container -->
-
-	 <!-- Bootstrap core JavaScript
+      <h4><strong>Software</strong></h4>
+      <ul>
+        <li><a href="http://www.cs.waikato.ac.nz/ml/weka/">WEKA</a>
+          Machine learning software in JAVA that you can use for your
+          projects</li>
+        <li><a href="http://webscope.sandbox.yahoo.com/catalog.php">Yahoo
+            Labs datasets</a> Contains datasets for a variety of
+          interesting applications</li>
+        <li><a href="https://weka.waikato.ac.nz/">Data Mining with Weka</a>
+          A MOOC Course</li>
+        <li><a href="https://github.com/pushkar/ABAGAIL">ABAGAIL</a>
+          Machine learning software in JAVA.</li>
+        <li><a href="http://scikit-learn.org/stable/">scikit-learn</a> A
+          popular python library for supervised and unsupervised
+          learning algorithms</li>
+        <li><a href="http://pybrain.org/">pybrain</a> A popular python
+          library for artifical neural networks</li>
+        <li><a
+            href="http://www.mathworks.com/products/neural-network/examples.html">MATLAB
+            NN Toolbox</a> The toolbox supports supervised learning with
+          feedforward, radial basis, and dynamic networks and
+          unsupervised learning with self-organizing maps and
+          competitive layers.</li>
+        <li><a
+            href="http://www.cs.ubc.ca/~murphyk/Software/MDP/mdp.html">Murphy's
+            MDP Toolbox for Matlab</a></li>
+        <li><a
+            href="http://www.cc.gatech.edu/~dellaert/FrankDellaert/Software.html">MATLAB
+            Clustering Package</a> By <a
+href="http://www.cc.gatech.edu/~dellaert/FrankDellaert/Frank_Dellaert/Frank_Dellaert.html">Frank
+            Dellaert</a></li>
+        <li><a href="https://www.kaggle.com/">Kaggle</a> Data Science
+          Competition</li>
+      </ul>
+      <br>
+      <h4><strong>Datasets</strong></h4>
+      <ul>
+        <li><a href="http://archive.ics.uci.edu/ml/">UCI Machine
+            Learning Repository</a> An online repository of data sets
+          that can be used for machine learning experiments.</li>
+        <li><a href="http://deeplearning.net/datasets/">Deep Learning</a>
+          Datasets useful for benchmarking deep learning algorithms.</li>
+        <li><a href="http://snap.stanford.edu/data/">Stanford Large
+            Network Dataset</a> Dataset of large social and information
+          networks.</li>
+        <li><a href="http://www.cvlibs.net/datasets/kitti/index.php">Vision
+            Benchmark Suite</a> Autonomous car dataset</li>
+        <li><a href="http://kevinchai.net/datasets">Other datasets</a></li>
+      </ul>
+    </div>
+    <!-- /container -->
+    <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
-
   </body>
 </html>

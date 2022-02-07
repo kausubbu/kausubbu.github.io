@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-  
   <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,25 +10,21 @@
     <meta name="description" content="Course Information for CS4641">
     <meta name="author" content="Kaushik Subramanian">
     <link rel="icon" href="../../favicon.ico">
-
     <title>CS 4641</title>
-
     <!-- Bootstrap core CSS -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	<style>
+    <style>
       body {
         padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
       }
     </style>
-	
-	<!-- Mathjax styles -->
+    <!-- Mathjax styles -->
     <script type="text/x-mathjax-config">
       MathJax.Hub.Config({
       tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]}
       });
     </script>
     <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -38,171 +35,241 @@
   ga('send', 'pageview');
 
 </script>
-
   </head>
-  
   <body>
-
-	<!-- Navigation bar -->	
-	<nav class="navbar navbar-inverse navbar-fixed-top">
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html">CS 4641</a>
-        </div>
+        <div class="navbar-header"> <button type="button"
+            class="navbar-toggle collapsed" data-toggle="collapse"
+            data-target="#navbar" aria-expanded="false"
+            aria-controls="navbar"> <span class="sr-only">Toggle
+              navigation</span> <span class="icon-bar"></span> <span
+              class="icon-bar"></span> <span class="icon-bar"></span> </button>
+          <a class="navbar-brand" href="index.html">CS 4641</a> </div>
         <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">            
-			<li class="active"><a href="index.html">Home</a></li>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
             <li><a href="schedule.html">Schedule</a></li>
             <li><a href="reading.html">Reading</a></li>
-			<li><a href="resources.html">Resources</a></li>
-			<li><a href="projects.html">Projects</a></li>
-			<li><a href="https://piazza.com/gatech/summer2015/cs4641/home">Piazza</a></li>			
-          </ul>		  
-		  <ul class="nav navbar-nav navbar-right">			
-			<li><a href="http://www.cc.gatech.edu/~ksubrama/">Kaushik Subramanian</a></li>			
-		  </ul>
-        </div><!--/.nav-collapse -->
-      </div>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a
+                href="https://piazza.com/gatech/summer2015/cs4641/home">Piazza</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://kausubbu.github.io/"
+                moz-do-not-send="true">Kaushik Subramanian</a></li>
+          </ul>
+        </div>
+        <!--/.nav-collapse --> </div>
     </nav>
-	
     <!-- Main content -->
     <div class="container-fluid">
-	
-		<h2>Machine Learning</h2>		
-		<h4><strong>Summer 2015</strong></h4>
-		<p>Tues/Thurs, 12:00 pm - 1:45 pm<br>
-		Van Leer C340<br>
-		Course web page: <a href="https://t-square.gatech.edu/portal/site/gtc-6f8c-7ebc-58d1-9517-ecbc29ac37c9">CS 4641 T-Square</a>
-		</p>
-
-		<p>
-		<b>Instructor:</b><br>
-		Kaushik Subramanian, <a href="mailto:ksubrama@cc.gatech.edu">ksubrama@cc.gatech.edu</a><br>
-		Office Hours: Thurs, 4:00 pm - 5:00 pm, and by appointment<br>
-		Location: CCB 360B
-		</p>
-
-		<p>
-		<b>TA:</b><br>
-		Karl Gemayel, <a href="mailto:karl@gatech.edu">karl@gatech.edu</a><br>
-		Office Hours: Mon/Fri, 11:00 am - 12:00 pm, and by appointment<br>
-		Location: Klaus 1202
-		</p>
-
-		<p><b>Required Text:</b></p>
-		<ol>
-			<li><a href="http://www.cs.cmu.edu/afs/cs.cmu.edu/user/mitchell/ftp/mlbook.html">Machine Learning</a> by Tom Mitchell, McGraw Hill, 1997</li>
-			<li><a href="https://mitpress.mit.edu/books/introduction-machine-learning">Introduction to Machine Learning</a> by Ethem Alpaydin, MIT Press, Second Edition, 2009</li>
-		</ol>
-		
-		<hr />
-		<h4><strong><strong>General Information</strong></strong></h4>		
-		<p align="justify">Machine Learning (ML) is that area of Artificial Intelligence that is concerned with computational artifacts that modify and improve their performance through experience. The area is concerned with issues both theoretical and practical. We will cover a variety of topics, including: statistical supervised and unsupervised learning methods, randomized search algorithms, Bayesian learning methods, and reinforcement learning. The course also covers theoretical concepts such as inductive bias, the PAC and Mistake-bound learning frameworks, minimum description length principle, and Ockham's Razor. In order to ground these methods the course includes some programming and involvement in a number of projects.</p>
-		
-		<h4><strong><strong>Objectives</strong></strong></h4>		
-		<p>The primary objectives of the course:</p>
-		<ul>
-			<li>
-			<p>To provide a broad survey of approaches and techniques in ML</p>
-			</li>
-			<li>
-			<p>To develop the skills that will help you to build intelligent, adaptive artifacts</p>
-			</li>
-			<li>
-			<p>To develop the basic skills necessary to pursue research in ML</p>
-			</li>
-		</ul>
-		<p align="justify">Almost all ML applications today require you to think like a researcher. The last objective will be at the core of this course.</p>
-		
-		<h4><strong><strong>Prerequisites</strong></strong></h4>		
-		<p align="justify">The official prerequisite for this course is an introductory course in artificial intelligence. CS 3600 or Peter Norvig and Sebastian Thrun's AI class on <a href="https://www.udacity.com/course/cs271">Udacity</a> should suffice. Apart from this, the most important prerequisite for enjoying and doing well in this class is your interest in the material. If you are not sure whether this class is for you, please talk to me.</p>
-		
-		<h4><strong><strong>Resources</strong></strong></h4>
-		<ul>
-			<li>
-			<p><b>Readings.</b> The textbooks for the course: 1) <a href="http://www.cs.cmu.edu/afs/cs.cmu.edu/user/mitchell/ftp/mlbook.html">Machine Learning</a> by Tom Mitchell and 2) <a href="https://mitpress.mit.edu/books/introduction-machine-learning">Introduction to Machine Learning</a> by Ethem Alpaydim. We will also use supplemental readings as well, but those will be provided for you.</p>
-			</li>
-			<li>
-			<p><b>Computing.</b>&nbsp; Weblinks to ML toolboxes and datasets will provided for you (in the Resources tab). Also you are free to use whatever machines you want to do your work; however, the final result will have to run on the standard CoC boxes.</p>
-			</li>
-			<li>
-			<p><b>Web.</b> We will use the Tsquare page to post course announcements, so check it early and often. We will also use Piazza to discuss course material offline. Course schedule is available in the Resources tab.</p>
-			</li>
-		</ul>
-		
-		<h4><strong><strong>Grading</strong></strong></h4>		
-		<p align="justify">Your final grade is divided into four components: assignments, a group project, a midterm exam and a final exam.</p>
-		<ul>
-			<li>
-			<p align="justify"><b>Assignments.</b> There will be two graded assignments. They will be about programming and analysis.  Generally, they are designed to give you deeper insight into the material and to prepare you for the exams.  The programming will be in service of allowing you to run and discuss experiments, do analysis, and so on.</p>
-			</li>
-			<li>
-			<p align="justify"><b>Group Project.</b> There is a semester-long group project. You will use it to pursue a topic of your interest in Machine Learning. At the end of the term, you will be required to produce a NIPS-style conference paper, and to give a short presentation. Along the way, your group will turn in a very short proposal and a somewhat longer progress report. The guidelines for the group project are provided in the Resources tab.</p>
-			</li>
-			<li>
-			<p><b>Midterm.</b> There will be a written, closed-book midterm roughly halfway through the term.</p>
-			</li>
-			<li>
-			<p><b>Final Exam.</b> There will be a written, closed-book final exam at the time that has been scheduled for our class' final exam.</p>
-			</li>
-		</ul>
-		
-		<h4><strong><strong>Numbers</strong></strong></h4>		
-		<table width="150" border="0" cellpadding="1" cellspacing="1">
-			<tbody>
-				<tr>
-					<td><b>Component</b></td>
-					<td>&nbsp;</td>
-				</tr>
-				<tr>
-					<td>Assignments</td>
-					<td>30%</td>
-				</tr>
-				<tr>
-					<td>Midterm</td>
-					<td>20%</td>
-				</tr>
-				<tr>
-					<td>Final</td>
-					<td>25%</td>
-				</tr>
-				<tr>
-					<td>Group Project</td>
-					<td>25%</td>
-				</tr>
-			</tbody>
-		</table>
-		<br>
-		<p align="justify">Although class participation is not explictly graded, I will use your class participation to determine whether your grade can be lifted in case you are right on the edge of two grades. Participation means attending classes, participating in class discussions, asking relevant questions, volunteering to provide answers to questions, and providing constructive criticism and creative suggestions that improve the course.</p>
-		
-		<h4><strong><strong>Due Dates</strong></strong></h4>		
-		<p align="justify">All graded assignments are due by the time and date indicated. Late assignments are not accepted and there will be no make up exams. You will get zero credit for any late assignment.  The only exceptions will require: a <b>note</b> from an appropriate authority and <b>immediate notification</b> of the problem when it arises. You should also treat assigned readings as assignments that are due at the beginning of each class.</p>		
-		
-		<h4><strong><strong>Statement of Academic Honesty</strong></strong></h4>		
-		<p align="justify">You are all expected to follow the university's code of academic conduct (<a href="http://www.honor.gatech.edu/content/2/the-honor-code">Honor Code</a>).</p>
-		<p align="justify">Failure to cite your sources is an Honor Code violation. Unauthorized use of any previous semester course materials, such as tests, quizzes, homework, projects, and any other coursework, is prohibited in this course. Using these materials will be considered a direct violation of academic policy and will be dealt with according to the GT Academic  Honor Code.</p>
-		<p align="justify">Learning about algorithms from text or online sources is permissible. Copying content verbatim from online or another student is not permissible.</p>
-		<p align="justify">Furthermore, copies of the exams are not allowed to be out in the ether (so there should not be any out there for you to use anyway). If you violate the policy in any shape, form or fashion you will be dealt with according to the GT Academic Honor Code.</p>
-		<p align="justify">Be honest in solving your assignments and exams and you will learn and enjoy the material.</p>
-		
-		<h4><strong><strong>Disclaimer</strong></strong></h4>		
-		<p align="justify">The syllabus and course page should be considered a living document subject to change throughout the course of the semester. I reserve the right to modify any of these plans as need be during the course of the class; however, I won't do anything too drastic, and you'll be informed as far in advance as possible.</p>
-
-		<br>		
-		
-    </div> <!-- /container -->
-
-	 <!-- Bootstrap core JavaScript
+      <h2>Machine Learning</h2>
+      <h4><strong>Summer 2015</strong></h4>
+      <p>Tues/Thurs, 12:00 pm - 1:45 pm<br>
+        Van Leer C340<br>
+        Course web page: <a
+href="https://t-square.gatech.edu/portal/site/gtc-6f8c-7ebc-58d1-9517-ecbc29ac37c9">CS
+          4641 T-Square</a> </p>
+      <p> <b>Instructor:</b><br>
+        Kaushik Subramanian, <a href="mailto:ksubrama@cc.gatech.edu">ksubrama@cc.gatech.edu</a><br>
+        Office Hours: Thurs, 4:00 pm - 5:00 pm, and by appointment<br>
+        Location: CCB 360B </p>
+      <p> <b>TA:</b><br>
+        Karl Gemayel, <a href="mailto:karl@gatech.edu">karl@gatech.edu</a><br>
+        Office Hours: Mon/Fri, 11:00 am - 12:00 pm, and by appointment<br>
+        Location: Klaus 1202 </p>
+      <p><b>Required Text:</b></p>
+      <ol>
+        <li><a
+href="http://www.cs.cmu.edu/afs/cs.cmu.edu/user/mitchell/ftp/mlbook.html">Machine
+            Learning</a> by Tom Mitchell, McGraw Hill, 1997</li>
+        <li><a
+            href="https://mitpress.mit.edu/books/introduction-machine-learning">Introduction
+            to Machine Learning</a> by Ethem Alpaydin, MIT Press, Second
+          Edition, 2009</li>
+      </ol>
+      <hr>
+      <h4><strong><strong>General Information</strong></strong></h4>
+      <p align="justify">Machine Learning (ML) is that area of
+        Artificial Intelligence that is concerned with computational
+        artifacts that modify and improve their performance through
+        experience. The area is concerned with issues both theoretical
+        and practical. We will cover a variety of topics, including:
+        statistical supervised and unsupervised learning methods,
+        randomized search algorithms, Bayesian learning methods, and
+        reinforcement learning. The course also covers theoretical
+        concepts such as inductive bias, the PAC and Mistake-bound
+        learning frameworks, minimum description length principle, and
+        Ockham's Razor. In order to ground these methods the course
+        includes some programming and involvement in a number of
+        projects.</p>
+      <h4><strong><strong>Objectives</strong></strong></h4>
+      <p>The primary objectives of the course:</p>
+      <ul>
+        <li>
+          <p>To provide a broad survey of approaches and techniques in
+            ML</p>
+        </li>
+        <li>
+          <p>To develop the skills that will help you to build
+            intelligent, adaptive artifacts</p>
+        </li>
+        <li>
+          <p>To develop the basic skills necessary to pursue research in
+            ML</p>
+        </li>
+      </ul>
+      <p align="justify">Almost all ML applications today require you to
+        think like a researcher. The last objective will be at the core
+        of this course.</p>
+      <h4><strong><strong>Prerequisites</strong></strong></h4>
+      <p align="justify">The official prerequisite for this course is an
+        introductory course in artificial intelligence. CS 3600 or Peter
+        Norvig and Sebastian Thrun's AI class on <a
+          href="https://www.udacity.com/course/cs271">Udacity</a> should
+        suffice. Apart from this, the most important prerequisite for
+        enjoying and doing well in this class is your interest in the
+        material. If you are not sure whether this class is for you,
+        please talk to me.</p>
+      <h4><strong><strong>Resources</strong></strong></h4>
+      <ul>
+        <li>
+          <p><b>Readings.</b> The textbooks for the course: 1) <a
+href="http://www.cs.cmu.edu/afs/cs.cmu.edu/user/mitchell/ftp/mlbook.html">Machine
+              Learning</a> by Tom Mitchell and 2) <a
+              href="https://mitpress.mit.edu/books/introduction-machine-learning">Introduction
+              to Machine Learning</a> by Ethem Alpaydim. We will also
+            use supplemental readings as well, but those will be
+            provided for you.</p>
+        </li>
+        <li>
+          <p><b>Computing.</b>&nbsp; Weblinks to ML toolboxes and
+            datasets will provided for you (in the Resources tab). Also
+            you are free to use whatever machines you want to do your
+            work; however, the final result will have to run on the
+            standard CoC boxes.</p>
+        </li>
+        <li>
+          <p><b>Web.</b> We will use the Tsquare page to post course
+            announcements, so check it early and often. We will also use
+            Piazza to discuss course material offline. Course schedule
+            is available in the Resources tab.</p>
+        </li>
+      </ul>
+      <h4><strong><strong>Grading</strong></strong></h4>
+      <p align="justify">Your final grade is divided into four
+        components: assignments, a group project, a midterm exam and a
+        final exam.</p>
+      <ul>
+        <li>
+          <p align="justify"><b>Assignments.</b> There will be two
+            graded assignments. They will be about programming and
+            analysis. Generally, they are designed to give you deeper
+            insight into the material and to prepare you for the exams.
+            The programming will be in service of allowing you to run
+            and discuss experiments, do analysis, and so on.</p>
+        </li>
+        <li>
+          <p align="justify"><b>Group Project.</b> There is a
+            semester-long group project. You will use it to pursue a
+            topic of your interest in Machine Learning. At the end of
+            the term, you will be required to produce a NIPS-style
+            conference paper, and to give a short presentation. Along
+            the way, your group will turn in a very short proposal and a
+            somewhat longer progress report. The guidelines for the
+            group project are provided in the Resources tab.</p>
+        </li>
+        <li>
+          <p><b>Midterm.</b> There will be a written, closed-book
+            midterm roughly halfway through the term.</p>
+        </li>
+        <li>
+          <p><b>Final Exam.</b> There will be a written, closed-book
+            final exam at the time that has been scheduled for our
+            class' final exam.</p>
+        </li>
+      </ul>
+      <h4><strong><strong>Numbers</strong></strong></h4>
+      <table width="150" cellspacing="1" cellpadding="1" border="0">
+        <tbody>
+          <tr>
+            <td><b>Component</b></td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>Assignments</td>
+            <td>30%</td>
+          </tr>
+          <tr>
+            <td>Midterm</td>
+            <td>20%</td>
+          </tr>
+          <tr>
+            <td>Final</td>
+            <td>25%</td>
+          </tr>
+          <tr>
+            <td>Group Project</td>
+            <td>25%</td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <p align="justify">Although class participation is not explictly
+        graded, I will use your class participation to determine whether
+        your grade can be lifted in case you are right on the edge of
+        two grades. Participation means attending classes, participating
+        in class discussions, asking relevant questions, volunteering to
+        provide answers to questions, and providing constructive
+        criticism and creative suggestions that improve the course.</p>
+      <h4><strong><strong>Due Dates</strong></strong></h4>
+      <p align="justify">All graded assignments are due by the time and
+        date indicated. Late assignments are not accepted and there will
+        be no make up exams. You will get zero credit for any late
+        assignment. The only exceptions will require: a <b>note</b>
+        from an appropriate authority and <b>immediate notification</b>
+        of the problem when it arises. You should also treat assigned
+        readings as assignments that are due at the beginning of each
+        class.</p>
+      <h4><strong><strong>Statement of Academic Honesty</strong></strong></h4>
+      <p align="justify">You are all expected to follow the university's
+        code of academic conduct (<a
+          href="http://www.honor.gatech.edu/content/2/the-honor-code">Honor
+          Code</a>).</p>
+      <p align="justify">Failure to cite your sources is an Honor Code
+        violation. Unauthorized use of any previous semester course
+        materials, such as tests, quizzes, homework, projects, and any
+        other coursework, is prohibited in this course. Using these
+        materials will be considered a direct violation of academic
+        policy and will be dealt with according to the GT Academic Honor
+        Code.</p>
+      <p align="justify">Learning about algorithms from text or online
+        sources is permissible. Copying content verbatim from online or
+        another student is not permissible.</p>
+      <p align="justify">Furthermore, copies of the exams are not
+        allowed to be out in the ether (so there should not be any out
+        there for you to use anyway). If you violate the policy in any
+        shape, form or fashion you will be dealt with according to the
+        GT Academic Honor Code.</p>
+      <p align="justify">Be honest in solving your assignments and exams
+        and you will learn and enjoy the material.</p>
+      <h4><strong><strong>Disclaimer</strong></strong></h4>
+      <p align="justify">The syllabus and course page should be
+        considered a living document subject to change throughout the
+        course of the semester. I reserve the right to modify any of
+        these plans as need be during the course of the class; however,
+        I won't do anything too drastic, and you'll be informed as far
+        in advance as possible.</p>
+      <br>
+    </div>
+    <!-- /container -->
+    <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
-
   </body>
 </html>

@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-  
   <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,25 +10,21 @@
     <meta name="description" content="Course Information for CS4641">
     <meta name="author" content="Kaushik Subramanian">
     <link rel="icon" href="../../favicon.ico">
-
     <title>CS 4641</title>
-
     <!-- Bootstrap core CSS -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	<style>
+    <style>
       body {
         padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
       }
     </style>
-	
-	<!-- Mathjax styles -->
+    <!-- Mathjax styles -->
     <script type="text/x-mathjax-config">
       MathJax.Hub.Config({
       tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]}
       });
     </script>
     <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -38,312 +35,371 @@
   ga('send', 'pageview');
 
 </script>
-
   </head>
-  
   <body>
-
-	<!-- Navigation bar -->	
-	<nav class="navbar navbar-inverse navbar-fixed-top">
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html">CS 4641</a>
-        </div>
+        <div class="navbar-header"> <button type="button"
+            class="navbar-toggle collapsed" data-toggle="collapse"
+            data-target="#navbar" aria-expanded="false"
+            aria-controls="navbar"> <span class="sr-only">Toggle
+              navigation</span> <span class="icon-bar"></span> <span
+              class="icon-bar"></span> <span class="icon-bar"></span> </button>
+          <a class="navbar-brand" href="index.html">CS 4641</a> </div>
         <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">            
-			<li><a href="index.html">Home</a></li>
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
             <li><a href="schedule.html">Schedule</a></li>
             <li><a href="reading.html">Reading</a></li>
-			<li><a href="resources.html">Resources</a></li>
-			<li class="active"><a href="projects.html">Projects</a></li>
-			<li><a href="https://piazza.com/gatech/summer2015/cs4641/home">Piazza</a></li>			
-          </ul>		  
-		  <ul class="nav navbar-nav navbar-right">			
-			<li><a href="http://www.cc.gatech.edu/~ksubrama/">Kaushik Subramanian</a></li>			
-		  </ul>
-        </div><!--/.nav-collapse -->
-      </div>
+            <li><a href="resources.html">Resources</a></li>
+            <li class="active"><a href="projects.html">Projects</a></li>
+            <li><a
+                href="https://piazza.com/gatech/summer2015/cs4641/home">Piazza</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://kausubbu.github.io/"
+                moz-do-not-send="true">Kaushik Subramanian</a></li>
+          </ul>
+        </div>
+        <!--/.nav-collapse --> </div>
     </nav>
-
     <!-- Main content -->
     <div class="container-fluid">
-	
-		<h4><strong>Schedule of Presentations</strong></h4>
-		
-		<p>July 21st (Tuesday)</p>
-
-		<ul>
-		<li>12:03pm: Facebook Recruiting: Human or Robot</li>
-		<li>12:20pm: Learning from Chess Endgames</li>
-		<li>12:37pm: Handwriting Recognition</li>
-		<li>12:54pm: S&P Stock Data Clustering Analysis</li>
-		<li>1:11pm: Machine Learning for Text Classification</li>
-		</ul>
-
-		<p>July 23rd (Thursday)</p>
-
-		<ul>
-		<li>12:03pm: Category Inference on Yelp Data</li>
-		<li>12:20pm: Decoding APRS Modem Signals</li>
-		<li>12:37pm: Automatic Traffic Magic</li>
-		</ul>
-		
-		<hr>
-		
-		<h4><strong>Group Project Guidelines</strong></h4>
-		<p align="justify">The goal of the course project is for you to gain in-depth experience with specific machine learning techniques and algorithms by applying them to some interesting problem domains. In addition you should also gain an appreciation for what it means to have a result in the field. The projects should have a research component and/or attempt to solve a large-scale problem.</p>
-		
-		<p><b>Deliverables</b></p>		
-		<table style="width:35%; margin-left:25px">
-		  <tr>
-			<td>May 22:</td>
-			<td>Team Formation and Project Abstract</td>		
-		  </tr>
-
-		  <tr>
-			<td>June 10:</td>
-			<td>Informal Project Proposal</td>		
-		  </tr>
-
-		  <tr>
-			<td>June 10 to July 8:</td>
-			<td>One on one discussions</td>		
-		  </tr>
-
-		  <tr>
-			<td>July 8:</td>
-			<td>Project Progress Report</td>		
-		  </tr>
-
-		  <tr>
-			<td>July 17 (<font color="red">extended to July 24</font>):</td>
-			<td>Final Project Report</td>		
-		  </tr>
-
-		  <tr>
-			<td>July 21:</td>
-			<td>Project Presentations</td>		
-		  </tr>
-
-		</table>
-		
-		<br>
-		
-		<h4>Details</h4>
-		
-		<p>Projects must be done in teams of three or four students.</p>
-		
-		<p><b>Team Formation and Project Abstract.</b> Submit a one page document listing your team members and an abstract that describes your project.</p>
-		
-		<p><b>Informal Project Proposal.</b> Submit a two to three page project proposal. Things to include,</p>
-		<ul>
-			<li><i>Problem description.</i> A concise problem description, including a description of the data sets you will use (if applicable). Make sure you communicate why this project is interesting.</li>
-			<li><i>Research goals.</i> A discussion of what the different outcomes might be. In particular tell us how you will know when the project is successful.</li>
-			<li><i>Project Plan.</i> A project plan, outlining in detail the method/s used, what type of experiments will be performed and when (i.e. a timeline).</li>
-			<li><i>Individual Tasks.</i> A description of the tasks that will be performed by the individual team members. Each member should contribute to the machine learning.</li>
-		</ul>		
-		
-		<p><b>Project Progress Report.</b> Submit a four to five page report about the current status of your project. Discuss the problem description, research goals, project plan in more detail. Elaborate on completed tasks and any changes that have been made since the initial proposal. In addition include,</p>
-		<ul>
-			<li><i>Related Work.</i> Provide details about existing work relevant to your problem and highlight similarities and differences to your approach.</li>
-			<li><i>Approach.</i> Provide details on the algorithms you used, modifications made, data preparation methods and most importantly the reasons behind the choices made.</li>
-			<li><i>Implementation Details.</i> Provide software implementation details for your project, i.e. programming languages used, libraries and packages used, communication protocols, etc.</li>
-			<li><i>Preliminary Results.</i> A series of graphs, tables, or whatever that show the results of your initial experiments and the lessons learned.</li>
-		</ul>
-		
-		<p><b>Final Project Report.</b> Submit a six to seven page final report of your project using a <a href="https://nips.cc/Conferences/2015/PaperInformation/StyleFiles">NIPS-style</a> conference format. The focus will be  on the machine learning algorithm design, results and associated analysis.</p>
-		
-		<p><b>Project Presentations.</b> Each group will give a 15 minute project presentation describing the problem, the approach, experiments, results obtained, analysis and conclusions.</p>
-		
-		<hr>
-		
-		<h4><strong>Project Ideas</strong></h4>
-		Here are some project ideas (borrowed from Pushkar Kolhe, Ph.D. student at GT).
-		<br>
-		<br>
-		<ul>
-			<li>
-			<p>Yelp Dataset Challenge. Predict ratings, user behavior from the Yelp dataset.</p>
-			</li>
-			<li>
-			<p>Airfare prediction. Look at the current air fare for various flights and build a system that predicts the best time to buy a ticket.</p>
-			</li>
-			<li>
-			<p>Handwriting Recognition. Use Hidden Markov Models for designing a handwriting recognition system or something as cool as Detexify.</p>
-			</li>
-			<li>
-			<p>Moneyball. Use player statistics to predict player performance. Then see how well your prediction works by testing it on a tournament dataset. Basically make an algorithm that can play fantasy baseball, football or soccer. See Soccermetrics.</p>
-			</li>
-			<li>
-			<p>Sound denoising or Shazzam. Projects for doing audio processing. You can use unsupervised learning techniques to remove noise from an audio signal. You can work on a semi-supervised learning algorithm for performing speech recognition or developing an application like Shazzam.</p>
-			</li>
-			<li>
-			<p>Quantified Self and Data Analysis. Use any of the many available quantified self devices, record dataset and try to make sense out of it. You will find many such devices to gather the data you are interested in. You can use your phone to track your runs, bike rides and devices like fitbit, ecg monitors and so on. I am especially interested in this project because of this competition.</p>
-			</li>
-			<li>
-			<p>Image Completion. Use Graphical Models to content awareness to complete or fill-in images.</p>
-			</li>
-			<li>
-			<p><a href="http://2013.rl-competition.org/home">Reinforcement Learning Challenges</a>. Solve a problem from the ICML 2013 Reinforcement Learning competition.</p>
-			</li>
-			<li>
-			<p><a href="https://www.kaggle.com/">Kaggle</a> competitions. Participate in a Kaggle competition.</p>
-			</li>
-		</ul>
-		<br>
-		Here are some project ideas (borrowed from Prof. Charles Isbell at GT).
-		<br>
-		<br>
-		<ul>
-			<li>
-			<p>Given a web page that (probably) contains glossary entries and definitions, extract the fields.</p>
-			</li>
-			<li>
-			<p>Given multiple database with addresses, create a unified database of places.</p>
-			</li>
-			<li>
-			<p>Create a more accurate battery power indicator.</p>
-			</li>
-			<li>
-			<p>Extract titles, authors, references from pdf files.</p>
-			</li>
-			<li>
-			<p>Self organization of a peer-to-peer network.</p>
-			</li>
-			<li>
-			<p>Predict server response time for nodes in a wireless network.</p>
-			</li>
-			<li>
-			<p>In RL, there are several algorithms that trade off exploration and exploitation in a theoretically motivated way.  Evaluate them empirically.</p>
-			</li>
-			<li>
-			<p>Compare existing RL techniques for &quot;mountain car&quot;  or Tetris.</p>
-			</li>
-			<li>
-			<p>Figure out how to beat a fixed set of TAC agents.</p>
-			</li>
-			<li>
-			<p>Use ML to find errors and bugs in code.</p>
-			</li>
-			<li>
-			<p>Compare techniques for merging probability distributions theoretically.</p>
-			</li>
-			<li>
-			<p>Use ML to predict the language based on adjacent letters in strings of text.</p>
-			</li>
-			<li>
-			<p>To solve multiple choice synonym questions, we've shown that multiple experts is a smart way to do this.  Training is done using supervised data.  Can the multiple modules be used to train each other? (&quot;Labeling via collectives of sufficiently accurate modules&quot;).</p>
-			</li>
-			<li>
-			<p>How about modules for RL?  Is there an advantage for doing policy search, table, neural net all together?</p>
-			</li>
-			<li>
-			<p>Applications:</p>
-			<ul>
-				<li>
-				<p>Natural language dialog</p>
-				</li>
-				<li>
-				<p>robotics</p>
-				</li>
-				<li>
-				<p>financial trading</p>
-				</li>
-				<li>
-				<p>network diagnosis</p>
-				</li>
-				<li>
-				<p>object recognition</p>
-				</li>
-				<li>
-				<p>combining speech and commands and images</p>
-				</li>
-				<li>
-				<p>problem solving (Sokoban)</p>
-				</li>
-				<li>
-				<p>video games</p>
-				</li>
-			</ul>
-			</li>
-			<li>
-			<p>&quot;Comparing Kernel-based Learning Method with Application to Face Recognition&quot;</p>
-			</li>
-			<li>
-			<p>&quot;Image-based Stress Recognition from a Model-based Face Tracking System&quot;</p>
-			</li>
-			<li>
-			<p>&quot;Chessman Position Recognition Using Artificial Neural Networks&quot;</p>
-			</li>
-			<li>
-			<p>&quot;Latent Learning in Agents&quot;</p>
-			</li>
-			<li>
-			<p>&quot;LLE and ISOMAP Analysis of Robot Images&quot;</p>
-			</li>
-			<li>
-			<p>&quot;Human Identification using Silhouette Gait Data&quot;</p>
-			</li>
-			<li>
-			<p>&quot;Reconstruction of Walking People Images by Principal Component Analysis&quot;</p>
-			</li>
-			<li>
-			<p>&quot;Empirical Analysis of Predictive Algorithms for Recommender Systems&quot;</p>
-			</li>
-			<li>
-			<p>&quot;Estimating Constraint Costs using Regression Trees&quot;</p>
-			</li>
-			<li>
-			<p>&quot;Extending Implicit Negotiation to Repeated Grid Games&quot;</p>
-			</li>
-			<li>
-			<p>&quot;A New Evolutionary Algorithm for Multi-objective Optimization Problems&quot;</p>
-			</li>
-			<li>
-			<p>&quot;Evolutionary Learning Networks&quot;</p>
-			</li>
-			<li>
-			<p>&quot;Learning Change Patterns in Software Engineering, Practicable or Not?&quot;</p>
-			</li>
-			<li>
-			<p>&quot;An Empirical Comparison between ANN and SVM as Classifiers&quot;</p>
-			</li>
-			<li>
-			<p>&quot;Dynamic Topic Analysis: Classification Without Established Classes using Distance Thresholds&quot;</p>
-			</li>
-			<li>
-			<p>&quot;Evaluation of Kernel function Modification in Text Classification Using SVM&quot;</p>
-			</li>
-			<li>
-			<p>&quot;Using TF-IDF to Determine Word Relevance in Document Queries&quot;</p>
-			</li>
-			<li>
-			<p>&quot;Stock Price Prediction from Natural Language Understanding of News Headlines&quot;</p>
-			</li>
-			<li>
-			<p>&quot;An Evaluation of Kea: An Automatic Keyphrase Extraction Algorithm&quot;</p>
-			</li>
-			<li>
-			<p>&quot;ID Identification in Online Communities&quot;</p>
-			</li>
-			<li>
-			<p>&quot;Document Quality Prediction with Statistical Textual Features&quot;</p>
-			</li>
-		</ul>
-
-    </div> <!-- /container -->
-
-	 <!-- Bootstrap core JavaScript
+      <h4><strong>Schedule of Presentations</strong></h4>
+      <p>July 21st (Tuesday)</p>
+      <ul>
+        <li>12:03pm: Facebook Recruiting: Human or Robot</li>
+        <li>12:20pm: Learning from Chess Endgames</li>
+        <li>12:37pm: Handwriting Recognition</li>
+        <li>12:54pm: S&amp;P Stock Data Clustering Analysis</li>
+        <li>1:11pm: Machine Learning for Text Classification</li>
+      </ul>
+      <p>July 23rd (Thursday)</p>
+      <ul>
+        <li>12:03pm: Category Inference on Yelp Data</li>
+        <li>12:20pm: Decoding APRS Modem Signals</li>
+        <li>12:37pm: Automatic Traffic Magic</li>
+      </ul>
+      <hr>
+      <h4><strong>Group Project Guidelines</strong></h4>
+      <p align="justify">The goal of the course project is for you to
+        gain in-depth experience with specific machine learning
+        techniques and algorithms by applying them to some interesting
+        problem domains. In addition you should also gain an
+        appreciation for what it means to have a result in the field.
+        The projects should have a research component and/or attempt to
+        solve a large-scale problem.</p>
+      <p><b>Deliverables</b></p>
+      <table style="width:35%; margin-left:25px">
+        <tbody>
+          <tr>
+            <td>May 22:</td>
+            <td>Team Formation and Project Abstract</td>
+          </tr>
+          <tr>
+            <td>June 10:</td>
+            <td>Informal Project Proposal</td>
+          </tr>
+          <tr>
+            <td>June 10 to July 8:</td>
+            <td>One on one discussions</td>
+          </tr>
+          <tr>
+            <td>July 8:</td>
+            <td>Project Progress Report</td>
+          </tr>
+          <tr>
+            <td>July 17 (<font color="red">extended to July 24</font>):</td>
+            <td>Final Project Report</td>
+          </tr>
+          <tr>
+            <td>July 21:</td>
+            <td>Project Presentations</td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <h4>Details</h4>
+      <p>Projects must be done in teams of three or four students.</p>
+      <p><b>Team Formation and Project Abstract.</b> Submit a one page
+        document listing your team members and an abstract that
+        describes your project.</p>
+      <p><b>Informal Project Proposal.</b> Submit a two to three page
+        project proposal. Things to include,</p>
+      <ul>
+        <li><i>Problem description.</i> A concise problem description,
+          including a description of the data sets you will use (if
+          applicable). Make sure you communicate why this project is
+          interesting.</li>
+        <li><i>Research goals.</i> A discussion of what the different
+          outcomes might be. In particular tell us how you will know
+          when the project is successful.</li>
+        <li><i>Project Plan.</i> A project plan, outlining in detail the
+          method/s used, what type of experiments will be performed and
+          when (i.e. a timeline).</li>
+        <li><i>Individual Tasks.</i> A description of the tasks that
+          will be performed by the individual team members. Each member
+          should contribute to the machine learning.</li>
+      </ul>
+      <p><b>Project Progress Report.</b> Submit a four to five page
+        report about the current status of your project. Discuss the
+        problem description, research goals, project plan in more
+        detail. Elaborate on completed tasks and any changes that have
+        been made since the initial proposal. In addition include,</p>
+      <ul>
+        <li><i>Related Work.</i> Provide details about existing work
+          relevant to your problem and highlight similarities and
+          differences to your approach.</li>
+        <li><i>Approach.</i> Provide details on the algorithms you used,
+          modifications made, data preparation methods and most
+          importantly the reasons behind the choices made.</li>
+        <li><i>Implementation Details.</i> Provide software
+          implementation details for your project, i.e. programming
+          languages used, libraries and packages used, communication
+          protocols, etc.</li>
+        <li><i>Preliminary Results.</i> A series of graphs, tables, or
+          whatever that show the results of your initial experiments and
+          the lessons learned.</li>
+      </ul>
+      <p><b>Final Project Report.</b> Submit a six to seven page final
+        report of your project using a <a
+          href="https://nips.cc/Conferences/2015/PaperInformation/StyleFiles">NIPS-style</a>
+        conference format. The focus will be on the machine learning
+        algorithm design, results and associated analysis.</p>
+      <p><b>Project Presentations.</b> Each group will give a 15 minute
+        project presentation describing the problem, the approach,
+        experiments, results obtained, analysis and conclusions.</p>
+      <hr>
+      <h4><strong>Project Ideas</strong></h4>
+      Here are some project ideas (borrowed from Pushkar Kolhe, Ph.D.
+      student at GT). <br>
+      <br>
+      <ul>
+        <li>
+          <p>Yelp Dataset Challenge. Predict ratings, user behavior from
+            the Yelp dataset.</p>
+        </li>
+        <li>
+          <p>Airfare prediction. Look at the current air fare for
+            various flights and build a system that predicts the best
+            time to buy a ticket.</p>
+        </li>
+        <li>
+          <p>Handwriting Recognition. Use Hidden Markov Models for
+            designing a handwriting recognition system or something as
+            cool as Detexify.</p>
+        </li>
+        <li>
+          <p>Moneyball. Use player statistics to predict player
+            performance. Then see how well your prediction works by
+            testing it on a tournament dataset. Basically make an
+            algorithm that can play fantasy baseball, football or
+            soccer. See Soccermetrics.</p>
+        </li>
+        <li>
+          <p>Sound denoising or Shazzam. Projects for doing audio
+            processing. You can use unsupervised learning techniques to
+            remove noise from an audio signal. You can work on a
+            semi-supervised learning algorithm for performing speech
+            recognition or developing an application like Shazzam.</p>
+        </li>
+        <li>
+          <p>Quantified Self and Data Analysis. Use any of the many
+            available quantified self devices, record dataset and try to
+            make sense out of it. You will find many such devices to
+            gather the data you are interested in. You can use your
+            phone to track your runs, bike rides and devices like
+            fitbit, ecg monitors and so on. I am especially interested
+            in this project because of this competition.</p>
+        </li>
+        <li>
+          <p>Image Completion. Use Graphical Models to content awareness
+            to complete or fill-in images.</p>
+        </li>
+        <li>
+          <p><a href="http://2013.rl-competition.org/home">Reinforcement
+              Learning Challenges</a>. Solve a problem from the ICML
+            2013 Reinforcement Learning competition.</p>
+        </li>
+        <li>
+          <p><a href="https://www.kaggle.com/">Kaggle</a> competitions.
+            Participate in a Kaggle competition.</p>
+        </li>
+      </ul>
+      <br>
+      Here are some project ideas (borrowed from Prof. Charles Isbell at
+      GT). <br>
+      <br>
+      <ul>
+        <li>
+          <p>Given a web page that (probably) contains glossary entries
+            and definitions, extract the fields.</p>
+        </li>
+        <li>
+          <p>Given multiple database with addresses, create a unified
+            database of places.</p>
+        </li>
+        <li>
+          <p>Create a more accurate battery power indicator.</p>
+        </li>
+        <li>
+          <p>Extract titles, authors, references from pdf files.</p>
+        </li>
+        <li>
+          <p>Self organization of a peer-to-peer network.</p>
+        </li>
+        <li>
+          <p>Predict server response time for nodes in a wireless
+            network.</p>
+        </li>
+        <li>
+          <p>In RL, there are several algorithms that trade off
+            exploration and exploitation in a theoretically motivated
+            way. Evaluate them empirically.</p>
+        </li>
+        <li>
+          <p>Compare existing RL techniques for "mountain car" or
+            Tetris.</p>
+        </li>
+        <li>
+          <p>Figure out how to beat a fixed set of TAC agents.</p>
+        </li>
+        <li>
+          <p>Use ML to find errors and bugs in code.</p>
+        </li>
+        <li>
+          <p>Compare techniques for merging probability distributions
+            theoretically.</p>
+        </li>
+        <li>
+          <p>Use ML to predict the language based on adjacent letters in
+            strings of text.</p>
+        </li>
+        <li>
+          <p>To solve multiple choice synonym questions, we've shown
+            that multiple experts is a smart way to do this. Training is
+            done using supervised data. Can the multiple modules be used
+            to train each other? ("Labeling via collectives of
+            sufficiently accurate modules").</p>
+        </li>
+        <li>
+          <p>How about modules for RL? Is there an advantage for doing
+            policy search, table, neural net all together?</p>
+        </li>
+        <li>
+          <p>Applications:</p>
+          <ul>
+            <li>
+              <p>Natural language dialog</p>
+            </li>
+            <li>
+              <p>robotics</p>
+            </li>
+            <li>
+              <p>financial trading</p>
+            </li>
+            <li>
+              <p>network diagnosis</p>
+            </li>
+            <li>
+              <p>object recognition</p>
+            </li>
+            <li>
+              <p>combining speech and commands and images</p>
+            </li>
+            <li>
+              <p>problem solving (Sokoban)</p>
+            </li>
+            <li>
+              <p>video games</p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>"Comparing Kernel-based Learning Method with Application to
+            Face Recognition"</p>
+        </li>
+        <li>
+          <p>"Image-based Stress Recognition from a Model-based Face
+            Tracking System"</p>
+        </li>
+        <li>
+          <p>"Chessman Position Recognition Using Artificial Neural
+            Networks"</p>
+        </li>
+        <li>
+          <p>"Latent Learning in Agents"</p>
+        </li>
+        <li>
+          <p>"LLE and ISOMAP Analysis of Robot Images"</p>
+        </li>
+        <li>
+          <p>"Human Identification using Silhouette Gait Data"</p>
+        </li>
+        <li>
+          <p>"Reconstruction of Walking People Images by Principal
+            Component Analysis"</p>
+        </li>
+        <li>
+          <p>"Empirical Analysis of Predictive Algorithms for
+            Recommender Systems"</p>
+        </li>
+        <li>
+          <p>"Estimating Constraint Costs using Regression Trees"</p>
+        </li>
+        <li>
+          <p>"Extending Implicit Negotiation to Repeated Grid Games"</p>
+        </li>
+        <li>
+          <p>"A New Evolutionary Algorithm for Multi-objective
+            Optimization Problems"</p>
+        </li>
+        <li>
+          <p>"Evolutionary Learning Networks"</p>
+        </li>
+        <li>
+          <p>"Learning Change Patterns in Software Engineering,
+            Practicable or Not?"</p>
+        </li>
+        <li>
+          <p>"An Empirical Comparison between ANN and SVM as
+            Classifiers"</p>
+        </li>
+        <li>
+          <p>"Dynamic Topic Analysis: Classification Without Established
+            Classes using Distance Thresholds"</p>
+        </li>
+        <li>
+          <p>"Evaluation of Kernel function Modification in Text
+            Classification Using SVM"</p>
+        </li>
+        <li>
+          <p>"Using TF-IDF to Determine Word Relevance in Document
+            Queries"</p>
+        </li>
+        <li>
+          <p>"Stock Price Prediction from Natural Language Understanding
+            of News Headlines"</p>
+        </li>
+        <li>
+          <p>"An Evaluation of Kea: An Automatic Keyphrase Extraction
+            Algorithm"</p>
+        </li>
+        <li>
+          <p>"ID Identification in Online Communities"</p>
+        </li>
+        <li>
+          <p>"Document Quality Prediction with Statistical Textual
+            Features"</p>
+        </li>
+      </ul>
+    </div>
+    <!-- /container -->
+    <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
-
   </body>
 </html>
